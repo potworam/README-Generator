@@ -1,22 +1,5 @@
 {
-  "name": "readme-generator",
-  "version": "1.0.0",
-  "description": "",
-  "main": "idex.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/potworam/README-Generator.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/potworam/README-Generator/issues"
-  },
-  "homepage": "https://github.com/potworam/README-Generator#readme",
   "dependencies": {
-    "inquirer": "^9.0.0"
+    "inquirer": "^8.2.4"
   }
 }

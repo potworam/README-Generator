@@ -5,4 +5,26 @@
  const description=(cheetos)=>{
     return `# ${cheetos}`
 }
-module.exports={createProjectTitle,description}
+const installation=(doritos)=>{
+    return `#${doritos}`
+}
+const usage=(doritos)=>{
+    return `#${doritos}`
+}
+const contribution=(doritos)=>{
+    return`#${doritos}`
+}
+const tests=(doritos)=>{
+    return`#${doritos}`
+}
+const license=(doritos)=>{
+    return`#${doritos}`
+}
+const github=(doritos)=>{
+    return`#${doritos}`
+}
+const email=(doritos)=>{
+    return`#${doritos}`
+}
+
+module.exports={createProjectTitle,description,installation,usage,contribution,tests,license,github,email}

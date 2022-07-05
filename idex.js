@@ -58,9 +58,9 @@ const generatePage = require('./src/page-template.js');
   ]
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-   let str=generatePage.createProjectTitle(data.project_name)+"Description"+"\n"+ generatePage.description(data.description)
-   +"Installation"+"\n"+ generatePage.installation(data.installation)+"Usage"+"\n"+ generatePage.usage(data.usage)+"contributing"+"\n"+ generatePage.contribution(data.contribution)
-   +"Tests"+"\n"+ generatePage.tests(data.tests)+"\n"+ generatePage.license(data.license)+"\n"+ generatePage.github(data.github)+"\n"+ generatePage.email(data.email)
+   let str=generatePage.createProjectTitle(data.project_name)+"\n Description"+"\n"+ generatePage.description(data.description)
+   +"\n Installation"+"\n"+ generatePage.installation(data.installation)+"\n Usage"+"\n"+ generatePage.usage(data.usage)+"\n contributing"+"\n"+ generatePage.contribution(data.contribution)
+   +"\n Tests"+"\n"+ generatePage.tests(data.tests)+"\n"+ generatePage.license(data.license)+"\n heres my github account"+"\n"+ generatePage.github(data.github)+"\n and heres my email"+"\n"+ generatePage.email(data.email)
    fs.writeFile(fileName, str, err => {
       if (err) throw new Error(err);
       console.log('Page created! Check out README.md in this directory to see it!');

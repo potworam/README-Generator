@@ -1,9 +1,16 @@
-# ReadME GeneratorDescription
-# This is an app that helps you create a readme quicklyInstallation
-#you install it through git hub.Usage
-#its use to help me make a readme quickly.contributing
-#noneTests
-#none
-#cc
-#Potworam
-#matthewpotwora@yahoo.com
+# readme generator
+ Description
+## words words words
+ Installation
+### online
+ Usage
+### to build readmes
+ contributing
+### 
+ Tests
+### 
+### af1-3.0
+ heres my github account
+## potworam
+ and heres my email
+## matthewpotwora@yahoo.com

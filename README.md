@@ -1,16 +1,16 @@
-# readme generator
+# README Generator
  Description
-## words words words
+## This is a project that helps make readmes  faster
  Installation
-### online
+### you install it through github and npm
  Usage
-### to build readmes
+### its used to make readmes faster
  contributing
-### 
+### none
  Tests
-### 
+### none
 ### af1-3.0
  heres my github account
-## potworam
+## Potworam
  and heres my email
 ## matthewpotwora@yahoo.com
